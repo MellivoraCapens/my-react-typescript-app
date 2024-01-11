@@ -164,3 +164,44 @@
   grid-template-columns: repeat(1, 200px);
 }
 }
+
+.calculator-main {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-rows: 100px repeat(6, 80px);
+  grid-template-columns: repeat(4, 80px);
+  margin: 10px;
+}
+
+.calculator-main button{
+  background: #727171;
+  border: none;
+  border-radius: 8px;
+  font-size: 24px;
+  color: white;
+}
+.calculator-main button:hover {
+  background: #585757;
+}
+
+.calculator-main .number {
+  color: #000;
+  background: #E48900;
+}
+
+.calculator-main .number:hover {
+  background: #ca7900;
+}
+
+.calculator-main input{
+  text-align: end;
+  grid-column-end: span 4;
+  border: none;
+  border-radius: 8px;
+  font-size: 24px;
+  padding: 24px;
+}
+
+.calculator-main .zero{
+  grid-column-end: span 2;
+}

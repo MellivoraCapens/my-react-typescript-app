@@ -21,6 +21,9 @@ const NavBar: React.FC = () => {
         <li>
           <NavLink to="/movies">Movies</NavLink>
         </li>
+        <li>
+          <NavLink to="/calculator">Calculator</NavLink>
+        </li>
       </ul>
     </nav>
   );

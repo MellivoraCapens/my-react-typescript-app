@@ -6,6 +6,7 @@ import Galery from "./Pages/Galery";
 import All from "./Pages/All";
 import NavBar from "./Components/NavBar";
 import Movies from "./Pages/Movies";
+import Calculator from "./Components/Calculator";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/galery" element={<Galery />} />
         <Route path="/all" element={<All />} />
         <Route path="/movies" element={<Movies />}></Route>
+        <Route path="/calculator" element={<Calculator />}></Route>
       </Routes>
     </div>
   );
